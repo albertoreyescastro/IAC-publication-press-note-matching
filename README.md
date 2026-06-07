@@ -4,6 +4,24 @@ A compact Python/Colab pipeline for linking scientific publication titles with p
 
 The project combines live web scraping, text cleaning, fuzzy matching and evidence-based ranking. It is designed as a GitHub-friendly demo of a larger local workflow that used a full publication-title list.
 
+## Demo
+
+A Kaggle-friendly demo version is available here:
+
+[Open the Kaggle demo](https://www.kaggle.com/code/albertoreyescastro20/iac-scientific-publication-matching-demo)
+
+The Kaggle version uses a reduced pre-collected dataset uploaded through Kaggle, so the matching workflow can be reproduced without relying on live scraping during execution.
+
+## Source website
+
+The press notes are collected from the public website of the Instituto de Astrofísica de Canarias:
+
+[IAC official website](https://www.iac.es/)
+
+The live scraping workflow targets the public IAC news archive:
+
+[IAC news archive](https://www.iac.es/es/divulgacion/noticias)
+
 ## What it does
 
 - Scrapes public IAC news pages for a target year.
@@ -122,4 +140,11 @@ with records in this format:
 
 The public GitHub version uses a compact sample for reproducibility and readability. The full local workflow can be adapted to larger publication lists.
 
+The Kaggle demo is intended as a lightweight, reproducible version of the matching workflow. The GitHub notebook keeps the live scraping workflow visible as part of the full pipeline.
+
 Large raw scrape outputs, full-text dumps and private/local publication files should not be committed to the repository.
+
+## Author
+
+Alberto Reyes Castro
+
