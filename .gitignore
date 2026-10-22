@@ -1,17 +1,21 @@
 .ipynb_checkpoints/
 __pycache__/
-*.pyc
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
 .DS_Store
+.venv/
+venv/
 
-# Local/private data
+# Local/private data from the original project
 data/752articulos.txt
 data/full_publication_list.txt
 
-# Large scrape outputs
-outputs/iac_press_notes_2024_live.csv
-outputs/iac_scraping_skipped_2024.csv
-outputs/iac_press_notes_2024_fulltext.txt
+# Live scrape outputs are intentionally not versioned.
+outputs/iac_press_notes_*_live.csv
+outputs/iac_scraping_skipped_*.csv
+outputs/iac_press_notes_*_fulltext.txt
 
-# Temporary files
+# Temporary/generated artifacts
 *.zip
 *.pdf

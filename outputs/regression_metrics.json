@@ -1,0 +1,11 @@
+{
+  "evaluated_press_notes": 8,
+  "relevant_pairs": 9,
+  "mrr": 1.0,
+  "pair_recall_at_1": 0.8889,
+  "note_hit_rate_at_1": 1.0,
+  "pair_recall_at_3": 1.0,
+  "note_hit_rate_at_3": 1.0,
+  "pair_recall_at_5": 1.0,
+  "note_hit_rate_at_5": 1.0
+}
