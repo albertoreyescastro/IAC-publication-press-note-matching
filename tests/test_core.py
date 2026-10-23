@@ -6,7 +6,6 @@ import pandas as pd
 
 from iac_matching.core import Article, calculate_match, extract_articles_from_txt, normalise
 
-
 ROOT = Path(__file__).resolve().parents[1]
 
 

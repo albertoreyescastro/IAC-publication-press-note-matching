@@ -1,14 +1,14 @@
 """Reusable components for the IAC publication-to-press-note matching demo."""
 
 from .core import (
+    MATCH_COLUMNS,
     Article,
     Match,
-    MATCH_COLUMNS,
     calculate_match,
     extract_articles_from_txt,
     match_articles_to_press_notes,
-    normalise,
     meaningful_tokens,
+    normalise,
 )
 from .evaluation import evaluate_ranking
 from .scraper import ScraperConfig, scrape_iac_press_notes

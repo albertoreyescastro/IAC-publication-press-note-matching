@@ -7,7 +7,6 @@ from dataclasses import asdict, dataclass
 import pandas as pd
 from rapidfuzz import fuzz
 
-
 EN_STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "been", "by", "for", "from",
     "has", "have", "how", "in", "into", "is", "it", "its", "new", "of", "on",

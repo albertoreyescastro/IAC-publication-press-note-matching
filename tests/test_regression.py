@@ -7,7 +7,6 @@ import pandas as pd
 from iac_matching.core import extract_articles_from_txt, match_articles_to_press_notes
 from iac_matching.evaluation import evaluate_ranking
 
-
 ROOT = Path(__file__).resolve().parents[1]
 
 
