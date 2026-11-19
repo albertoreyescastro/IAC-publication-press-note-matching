@@ -189,11 +189,11 @@ The motivating problem comes from scientific-publication and outreach material a
 - [IAC official website](https://www.iac.es/)
 - [IAC news and outreach archive](https://www.iac.es/es/divulgacion/noticias)
 
-The public sample contains 29 numbered publication titles. The earlier local workflow worked across a **752-title source list** and linked **67 Spanish-language outreach articles** to their English-language research papers. A colleague carried out **independent manual matching** (about **two working days**); the final results agreed for **all 67 articles**, with uncertain cases checked by hand.
+During the IAC placement, I designed, built and ran the original approach **in a few hours**. It connected **67 Spanish-language outreach articles** to the English-language scientific papers behind them using a local list of **752 publication titles**. A colleague independently performed the matching manually over approximately **two working days**; the final links agreed for all 67 articles, and uncertain candidates were reviewed by hand. The corresponding scientific references were subsequently added to **all 67 articles on the IAC website**.
 
-Those 67 matches and the colleague's time are **historical project results, not public regression-test measurements**: the original full list and independent comparison records are not included here. Agreement with one manual review is not a claim of perfect generalisation or calibrated accuracy.
+The public repository illustrates the technique using **29 titles**, with a small regression fixture of **8 notes and 9 known links**. It does **not** contain the original 67-case comparison, nor does the agreement with a single manual review demonstrate 100% accuracy on unseen material. These are historical workflow outcomes, not public CI benchmarks or calibrated model-performance metrics.
 
-This matching work is separate from the evolving transcription workflow (first `SpeechRecognition`, later `faster-whisper`). The two projects should not be conflated.
+This text-matching project is separate from the UC3 speech-subtitling system and its later reusable `faster-whisper` implementation.
 
 ## Limitations
 
