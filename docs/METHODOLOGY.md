@@ -14,6 +14,10 @@ The bundled press-note fixture is compact evidence derived from the original exp
 
 It does **not** estimate production precision, recall or generalisation.
 
+## Historical IAC outcome vs public sample
+
+During the IAC work, the original local workflow used a 752-title publication list and linked 67 Spanish-language outreach articles to English-language papers. A colleague independently matched the articles manually over roughly two working days; all 67 final links agreed, with ambiguous cases reviewed by hand. This historical agreement is distinct from the nine known pairs in the public regression fixture. The private local inputs and manual-comparison records are not distributed in this repository, so neither the 67/67 agreement nor the manual effort can be independently reproduced from this sample.
+
 ## Scraping policy
 
 Live collection is opt-in, uses a descriptive User-Agent, request timeouts, retry/backoff and a delay between detail-page requests. CI and the default notebook use offline fixtures instead of repeatedly hitting the public IAC website.
