@@ -9,7 +9,7 @@ A reproducible Python workflow for linking scientific publication titles with pu
 
 The project keeps the original matching approach deliberately interpretable: multilingual text normalisation, RapidFuzz similarity, exact-title evidence and scientific-term overlap are combined into a ranked shortlist for human review. The default path is fully offline and reproducible; live collection from the public IAC news archive is available as an explicit opt-in mode.
 
-> **Portfolio scope:** the public repository contains a compact 29-title sample and a small regression fixture. It demonstrates the engineering and ranking workflow without publishing the larger local source list or private/internal institutional data. The heuristic score is a ranking signal, not a calibrated probability or a claim of bibliographic certainty.
+> **Portfolio scope:** the public repository contains a compact 29-title sample and a small regression fixture, not the original 752-title local source list or the 67 historical article-to-paper matches. It demonstrates the engineering and ranking workflow without releasing internal institutional data. The heuristic score is a ranking signal, not a calibrated probability or a claim of bibliographic certainty.
 
 ## Live demo
 
@@ -189,9 +189,11 @@ The motivating problem comes from scientific-publication and outreach material a
 - [IAC official website](https://www.iac.es/)
 - [IAC news and outreach archive](https://www.iac.es/es/divulgacion/noticias)
 
-The public sample contains 29 numbered publication titles. The earlier local workflow used a substantially larger 752-title source list, which is not included here.
+The public sample contains 29 numbered publication titles. The earlier local workflow worked across a **752-title source list** and linked **67 Spanish-language outreach articles** to their English-language research papers. A colleague carried out **independent manual matching** (about **two working days**); the final results agreed for **all 67 articles**, with uncertain cases checked by hand.
 
-This repository is also separate from the later `faster-whisper` transcription project. Earlier IAC-related transcription work and this publication-matching workflow should not be conflated with that later reusable speech pipeline.
+Those 67 matches and the colleague's time are **historical project results, not public regression-test measurements**: the original full list and independent comparison records are not included here. Agreement with one manual review is not a claim of perfect generalisation or calibrated accuracy.
+
+This matching work is separate from the evolving transcription workflow (first `SpeechRecognition`, later `faster-whisper`). The two projects should not be conflated.
 
 ## Limitations
 
