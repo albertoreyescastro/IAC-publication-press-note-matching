@@ -16,7 +16,9 @@ It does **not** estimate production precision, recall or generalisation.
 
 ## Historical IAC outcome vs public sample
 
-During the IAC work, the original local workflow used a 752-title publication list and linked 67 Spanish-language outreach articles to English-language papers. A colleague independently matched the articles manually over roughly two working days; all 67 final links agreed, with ambiguous cases reviewed by hand. This historical agreement is distinct from the nine known pairs in the public regression fixture. The private local inputs and manual-comparison records are not distributed in this repository, so neither the 67/67 agreement nor the manual effort can be independently reproduced from this sample.
+The original IAC workflow was designed, implemented and run within a few hours, using a local list of 752 English-language scientific publication titles to find source-paper references for 67 Spanish-language outreach articles. A colleague carried out the same matching independently by hand over approximately two working days. The two sets of final links agreed for all 67 articles after uncertain cases were checked manually; the corresponding references were then added to each of the 67 articles on the IAC website.
+
+The public fixture instead contains 29 candidate titles, 8 press notes and 9 known links. It is a small regression check, **not** the 67-article historical comparison. Neither the original inputs nor the independent reviewer records are distributed here; the reported time comparison and agreement therefore cannot be reproduced from these fixtures and should not be interpreted as archive-wide precision or recall.
 
 ## Scraping policy
 
